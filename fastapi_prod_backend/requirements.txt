@@ -1,0 +1,11 @@
+fastapi==0.110.2  # this is for FastAPI framework
+uvicorn[standard]==0.29.0 # this is for ASGI server ASGI server is used to run FastAPI applications
+gunicorn==21.2.0 # this is for WSGI HTTP server for serving FastAPI applications
+python-dotenv==1.0.1 # this is for loading environment variables from .env files
+sqlalchemy==2.0.30 # this is for SQL toolkit and Object Relational Mapper (ORM)
+alembic==1.13.1 # this is for database migrations tool
+python-jose[cryptography]==3.3.0 # this is for creating and verifying JSON Web Tokens (JWT)
+passlib[bcrypt]==1.7.4 # this is for password hashing
+redis==5.0.4 # this is for Redis client library
+httpx==0.27.0 # this is for making HTTP requests
+pydantic-settings==2.2.1 # this is for settings management with Pydantic
