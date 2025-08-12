@@ -1,0 +1,15 @@
+[
+{
+    "name": "ritik",
+    "description": "Returns a string with the name 'Ritik'.",
+    "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+    },
+    "returnType": {
+        "type": "string"
+    },
+    "code": "function ritik() {\n  return 'Ritik';\n}"
+}
+]
